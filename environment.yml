@@ -1,0 +1,28 @@
+# To use:
+#   $ conda env create -f environment.yml
+#   $ conda activate <name>
+name: machinelearnear-detic
+channels:
+  - conda-forge
+dependencies: # everything under this, installed by conda
+  - python=3.8
+  - git
+  - pip
+  - nb_conda_kernels
+  - ipykernel
+  - ipywidgets
+  - gh
+  - opencv
+  - pip: # everything under this, installed by pip
+    - torch
+    - torchvision
+    - git+https://github.com/openai/CLIP.git
+    # - git+https://github.com/facebookresearch/detectron2.git
+    - timm
+    - dataclasses
+    - ftfy
+    - regex
+    - fasttext
+    - scikit-learn
+    - lvis
+    - nltk
