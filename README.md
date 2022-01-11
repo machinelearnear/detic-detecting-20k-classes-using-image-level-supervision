@@ -1,0 +1,1 @@
+# detic-detecting-20k-classes-using-image-level-supervision
