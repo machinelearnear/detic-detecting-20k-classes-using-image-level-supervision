@@ -1,5 +1,14 @@
 # detic-detecting-20k-classes-using-image-level-supervision
 
+## Overview
+
+- Original paper: https://arxiv.org/abs/2201.02605
+- Official GitHub: https://github.com/facebookresearch/Detic
+
+Detic provides a gain of `2.4` mAP for all classes and `8.3` mAP for novel classes on the open-vocabulary LVIS benchmark
+
+![TLDR](detic-tldr.jpeg)
+
 ## Features
 - Detects any class given class names (using CLIP).
 - We train the detector on ImageNet-21K dataset with 21K classes.
@@ -9,9 +18,11 @@
 
 ## Demo
 
-Click here to run demo (no GPU needed): [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/machinelearnear/detic-detecting-20k-classes-using-image-level-supervision/blob/main/detic_demo.ipynb)
+Click here to run a demo
 
-## Reference
+[![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/machinelearnear/detic-detecting-20k-classes-using-image-level-supervision/blob/main/detic_demo.ipynb)
+
+## References
 
 ```bibtext
 @inproceedings{zhou2021detecting,
