@@ -22,6 +22,8 @@ Click here to run a demo
 
 [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/machinelearnear/detic-detecting-20k-classes-using-image-level-supervision/blob/main/detic_demo.ipynb)
 
+![TLDR](detic-choripan.png)
+
 ## References
 
 ```bibtext
