@@ -9,6 +9,9 @@ Detic provides a gain of `2.4` mAP for all classes and `8.3` mAP for novel class
 
 ![TLDR](detic-tldr.jpeg)
 
+## Watch YouTube Explainer Video
+[![DETIC: Detectar +20K Clases de Objetos Sin Fine-tuning (+ Repo)](https://img.youtube.com/vi/Xw2icCN5ZpM/0.jpg)](https://www.youtube.com/watch?v=Xw2icCN5ZpM)
+
 ## Features
 - Detects any class given class names (using CLIP).
 - We train the detector on ImageNet-21K dataset with 21K classes.
